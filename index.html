@@ -10,7 +10,7 @@
       type="image/x-icon"
       href="./img/new-google-favicon-logo-5E38E037AF-seeklogo.com.png"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <nav>
@@ -21,38 +21,37 @@
       <img src="./img/img_avatar.png" alt="" class="avatar"/>
       </div>
     </nav>
-    <main>
-      <div class="g_logo">
-        <img src="./img/googlelogo_color_272x92dp.png" alt="" />
-        <div class="input_field">
+    <section class="section1">
+        <img src="./img/googlelogo_color_272x92dp.png" alt="" class="g_logo"/>
+        <form action="https://www.google.com/search">
+          <div class="search_box">
+            <img src="./img/g-search.png" alt="" class="search_icon"/>
           <input
             type="text"
             name="q"
             placeholder="Search Google or type a URL"
+            class="search_input"
           />
-          <div class="search_icon">
-            <img src="./img/g-search.png" alt="" />
-          </div>
-          <div class="search_mic">
-            <img src="./img/g-mic.png" alt="" />
-          </div>
-          <div class="google_buttons">
-            <button>Google Search</button>
-            <button>I,m Feeling Lucky</button>
-          </div>
-        </div>
-      </div>
-    </main>
+            <img src="./img/g-mic.png" alt="" class="search_mic" />
+            <input type="submit" class="s_button" value="Google Search">
+            <input type="submit" class="s_button" value="I'm Feeling Lucky">
+            </div>
+            </form>
+            <div class="lang">
+              Google offered in:
+              <a href="#">Kiswahili</a>
+            </div>
+    </section>
     <footer>
-      <div class="footer">
-        <div>
           <h4>Kenya</h4></div>
-        </div>
-        <div>
-          <a href="">About</a>
-          <a href="">Advertising</a>
-          <a href="">Business</a>
-          <a href="">How Search Works</a>
+        <div class="links">
+          <div class="link1">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How Search Works</a>
+          </div>
+          <div class="link2">
           <a href="">Privacy</a>
           <a href="">Terms</a>
           <a href="">Settings</a>
